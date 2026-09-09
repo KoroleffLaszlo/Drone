@@ -1,0 +1,66 @@
+[0.008s] Invoking command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8
+[0.049s] [ 25%] [32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o[0m
+[0.049s] [ 75%] Built target nav_node
+[3.184s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:45:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[3.184s]    94 |       rclcpp::Publisher<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr pose_publisher_;
+[3.184s]       |                                             [01;31m[K^~~~~~~~~~~[m[K
+[3.184s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.184s]    94 |       rclcpp::Publisher<geometry_msgs::msg::PoseStamped[01;31m[K>[m[K::SharedPtr pose_publisher_;
+[3.184s]       |                                                        [01;31m[K^[m[K
+[3.184s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.184s]    94 |       rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::[01;31m[KSharedPtr[m[K pose_publisher_;
+[3.185s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[3.185s]       |                                                                    [32m[K;[m[K
+[3.185s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_publisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.185s]    94 |       rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Kpose_publisher_[m[K;
+[3.185s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.185s]       |                                                                     [32m[Krmw_publisher_t[m[K
+[3.185s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:[m[K In constructor ‘[01m[KDroneStateNode::[01;32m[KDroneStateNode[m[K()[m[K’:
+[3.185s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[3.185s]    28 |         [01;31m[Kpose_publisher_[m[K =
+[3.185s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.185s]       |         [32m[Kcount_publishers[m[K
+[3.185s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:29:54:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[3.185s]    29 |           this->create_publisher<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>(
+[3.185s]       |                                                      [01;31m[K^~~~~~~~~~~[m[K
+[3.185s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:29:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDroneStateNode::create_publisher<<expression error> >(const char [12], int)[m[K’
+[3.185s]    29 |           [01;31m[Kthis->create_publisher<geometry_msgs::msg::PoseStamped>([m[K
+[3.185s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.186s]    30 | [01;31m[K            "/drone/pose",[m[K
+[3.186s]       |             [01;31m[K~~~~~~~~~~~~~~[m[K                                        
+[3.186s]    31 | [01;31m[K            10[m[K
+[3.186s]       |             [01;31m[K~~[m[K                                                    
+[3.186s]    32 | [01;31m[K          )[m[K;
+[3.186s]       |           [01;31m[K~[m[K                                                       
+[3.186s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.186s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.187s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:176[m[K,
+[3.187s]                  from [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:4[m[K:
+[3.187s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.187s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[3.187s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.187s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.187s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:29:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.187s]    29 |           [01;31m[Kthis->create_publisher<geometry_msgs::msg::PoseStamped>([m[K
+[3.187s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.187s]    30 | [01;31m[K            "/drone/pose",[m[K
+[3.187s]       |             [01;31m[K~~~~~~~~~~~~~~[m[K                                        
+[3.187s]    31 | [01;31m[K            10[m[K
+[3.187s]       |             [01;31m[K~~[m[K                                                    
+[3.187s]    32 | [01;31m[K          )[m[K;
+[3.187s]       |           [01;31m[K~[m[K                                                       
+[3.187s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:[m[K In member function ‘[01m[Kvoid DroneStateNode::[01;32m[Kupdate_position[m[K()[m[K’:
+[3.187s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:65:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[3.187s]    65 |         geometry_msgs::msg::[01;31m[KPoseStamped[m[K obj;
+[3.187s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[3.187s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kobj[m[K’ was not declared in this scope
+[3.187s]    67 |         [01;31m[Kobj[m[K.header.stamp = this->get_clock()->now();
+[3.187s]       |         [01;31m[K^~~[m[K
+[3.188s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[3.189s]    81 |         [01;31m[Kpose_publisher_[m[K->publish(obj);
+[3.189s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.190s]       |         [32m[Kcount_publishers[m[K
+[3.190s] gmake[2]: *** [CMakeFiles/pose_node.dir/build.make:76: CMakeFiles/pose_node.dir/src/pose_node.cpp.o] Error 1
+[3.191s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pose_node.dir/all] Error 2
+[3.191s] gmake: *** [Makefile:146: all] Error 2
+[3.191s] Invoked command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8

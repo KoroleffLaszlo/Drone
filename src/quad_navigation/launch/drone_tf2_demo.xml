@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="quad_navigation" exec="nav_node" name="navigation" />
+  <node pkg="quad_navigation" exec="pose_node" name="pose" />
+  <node pkg="quad_navigation" exec="tf_node" name="tf_broadcaster" />
+</launch>

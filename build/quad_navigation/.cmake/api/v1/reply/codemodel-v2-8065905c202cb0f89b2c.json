@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b64df8eb2595925564e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "quad_navigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_node-76898270d29c1ba810f4.json",
+					"name" : "nav_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_node-5a4d22f0fd352ab215a6.json",
+					"name" : "pose_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quad_navigation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quad_navigation_uninstall-e709b0471eed1ebc54b6.json",
+					"name" : "quad_navigation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_node-bc2583a8875f73837119.json",
+					"name" : "tf_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1fd044a429387706f97c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation",
+		"source" : "/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8
+[0.058s] [ 33%] Built target tf_node
+[0.062s] [ 66%] Built target nav_node
+[0.063s] [ 83%] [32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o[0m
+[8.266s] [100%] [32m[1mLinking CXX executable pose_node[0m
+[8.578s] [100%] Built target pose_node
+[8.595s] Invoked command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8
+[8.605s] Invoking command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation
+[8.610s] -- Install configuration: ""
+[8.610s] -- Execute custom install script
+[8.610s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/lib/quad_navigation/nav_node
+[8.611s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/lib/quad_navigation/pose_node
+[8.611s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/lib/quad_navigation/tf_node
+[8.611s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/launch/drone_tf2_demo.xml
+[8.612s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/ament_index/resource_index/package_run_dependencies/quad_navigation
+[8.612s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/ament_index/resource_index/parent_prefix_path/quad_navigation
+[8.612s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/ament_prefix_path.sh
+[8.612s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/ament_prefix_path.dsv
+[8.612s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/path.sh
+[8.612s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/path.dsv
+[8.612s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.bash
+[8.613s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.sh
+[8.613s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.zsh
+[8.613s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.dsv
+[8.613s] -- Symlinking: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/package.dsv
+[8.622s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/ament_index/resource_index/packages/quad_navigation
+[8.624s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/cmake/quad_navigationConfig.cmake
+[8.624s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/cmake/quad_navigationConfig-version.cmake
+[8.630s] -- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/package.xml
+[8.630s] Invoked command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation

@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8
+[0.063s] [ 16%] [32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o[0m
+[0.066s] [ 50%] Built target tf_node
+[0.075s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_node.dir/src/nav_node.cpp.o[0m
+[0.421s] [ 83%] [32m[1mLinking CXX executable nav_node[0m
+[0.697s] [ 83%] Built target nav_node
+[5.538s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:[m[K In member function ‘[01m[Kvoid DroneStateNode::[01;32m[Kupdate_position[m[K()[m[K’:
+[5.538s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[KZ_[m[K’ was not declared in this scope; did you mean ‘[01m[Kz_[m[K’?
+[5.538s]    65 |         [01;31m[KZ_[m[K = vz_;
+[5.538s]       |         [01;31m[K^~[m[K
+[5.538s]       |         [32m[Kz_[m[K
+[5.540s] gmake[2]: *** [CMakeFiles/pose_node.dir/build.make:76: CMakeFiles/pose_node.dir/src/pose_node.cpp.o] Error 1
+[5.540s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pose_node.dir/all] Error 2
+[5.540s] gmake: *** [Makefile:146: all] Error 2
+[5.542s] Invoked command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8

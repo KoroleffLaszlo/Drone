@@ -1,0 +1,1 @@
+/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation/ament_cmake_core/quad_navigationConfig.cmake

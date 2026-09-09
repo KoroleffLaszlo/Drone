@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (quad_navigation) JobQueued: {'identifier': 'quad_navigation', 'dependencies': OrderedDict()}
+[0.000603] (quad_navigation) JobStarted: {'identifier': 'quad_navigation'}
+[0.005739] (quad_navigation) JobProgress: {'identifier': 'quad_navigation', 'progress': 'cmake'}
+[0.006818] (quad_navigation) JobProgress: {'identifier': 'quad_navigation', 'progress': 'build'}
+[0.006927] (quad_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', '--', '-j8', '-l8'], 'cwd': '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'laszlo-koroleff', 'GIT_ASKPASS': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/laszlo-koroleff', 'TERM_PROGRAM_VERSION': '1.134.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0136078b-6b1d-45f8-86e4-f39eda3d53af.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/laszlo-koroleff/projects/QuadCode_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'laszlo-koroleff', 'NAME': 'DESKTOP-RGJE0QP', 'WSL_INTEROP': '/run/WSL/598_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/bin/remote-cli:/usr/lib/ccache:/home/laszlo-koroleff/Ardupilot/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/laszlo-koroleff/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Go/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/MAVProxy:/mnt/c/Users/Laszlo Koroleff/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.2.3/bin:/mnt/c/Users/Laszlo Koroleff/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Laszlo Koroleff/AppData/Roaming/npm:/mnt/c/Users/Laszlo Koroleff/go/bin:/snap/bin:/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1a65c11b2878fb36.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/laszlo-koroleff/.vscode-server/data/User/workspaceStorage/9463f6105379a2a57c313182f23f1854/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0d24cfcd68.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.057941] (quad_navigation) StdoutLine: {'line': b'[ 33%] Built target tf_node\n'}
+[0.062243] (quad_navigation) StdoutLine: {'line': b'[ 66%] Built target nav_node\n'}
+[0.063652] (quad_navigation) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o\x1b[0m\n'}
+[0.099798] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.300526] (-) TimerEvent: {}
+[0.400945] (-) TimerEvent: {}
+[0.501360] (-) TimerEvent: {}
+[0.601723] (-) TimerEvent: {}
+[0.702105] (-) TimerEvent: {}
+[0.802439] (-) TimerEvent: {}
+[0.902764] (-) TimerEvent: {}
+[1.003097] (-) TimerEvent: {}
+[1.103700] (-) TimerEvent: {}
+[1.204238] (-) TimerEvent: {}
+[1.304769] (-) TimerEvent: {}
+[1.405086] (-) TimerEvent: {}
+[1.505396] (-) TimerEvent: {}
+[1.605723] (-) TimerEvent: {}
+[1.706052] (-) TimerEvent: {}
+[1.806528] (-) TimerEvent: {}
+[1.907104] (-) TimerEvent: {}
+[2.007625] (-) TimerEvent: {}
+[2.107981] (-) TimerEvent: {}
+[2.208317] (-) TimerEvent: {}
+[2.308640] (-) TimerEvent: {}
+[2.409024] (-) TimerEvent: {}
+[2.509548] (-) TimerEvent: {}
+[2.610019] (-) TimerEvent: {}
+[2.710482] (-) TimerEvent: {}
+[2.811010] (-) TimerEvent: {}
+[2.911409] (-) TimerEvent: {}
+[3.011764] (-) TimerEvent: {}
+[3.112119] (-) TimerEvent: {}
+[3.214217] (-) TimerEvent: {}
+[3.314593] (-) TimerEvent: {}
+[3.414950] (-) TimerEvent: {}
+[3.515283] (-) TimerEvent: {}
+[3.615618] (-) TimerEvent: {}
+[3.715918] (-) TimerEvent: {}
+[3.816243] (-) TimerEvent: {}
+[3.916602] (-) TimerEvent: {}
+[4.016971] (-) TimerEvent: {}
+[4.117359] (-) TimerEvent: {}
+[4.217723] (-) TimerEvent: {}
+[4.318038] (-) TimerEvent: {}
+[4.418348] (-) TimerEvent: {}
+[4.518665] (-) TimerEvent: {}
+[4.619027] (-) TimerEvent: {}
+[4.719313] (-) TimerEvent: {}
+[4.819620] (-) TimerEvent: {}
+[4.920002] (-) TimerEvent: {}
+[5.020293] (-) TimerEvent: {}
+[5.120563] (-) TimerEvent: {}
+[5.220902] (-) TimerEvent: {}
+[5.321223] (-) TimerEvent: {}
+[5.421531] (-) TimerEvent: {}
+[5.521841] (-) TimerEvent: {}
+[5.622160] (-) TimerEvent: {}
+[5.722524] (-) TimerEvent: {}
+[5.822922] (-) TimerEvent: {}
+[5.923204] (-) TimerEvent: {}
+[6.023489] (-) TimerEvent: {}
+[6.123821] (-) TimerEvent: {}
+[6.224255] (-) TimerEvent: {}
+[6.324656] (-) TimerEvent: {}
+[6.424938] (-) TimerEvent: {}
+[6.525153] (-) TimerEvent: {}
+[6.625417] (-) TimerEvent: {}
+[6.725671] (-) TimerEvent: {}
+[6.825931] (-) TimerEvent: {}
+[6.926193] (-) TimerEvent: {}
+[7.026439] (-) TimerEvent: {}
+[7.126696] (-) TimerEvent: {}
+[7.226947] (-) TimerEvent: {}
+[7.327252] (-) TimerEvent: {}
+[7.427596] (-) TimerEvent: {}
+[7.527879] (-) TimerEvent: {}
+[7.628145] (-) TimerEvent: {}
+[7.728417] (-) TimerEvent: {}
+[7.828720] (-) TimerEvent: {}
+[7.929052] (-) TimerEvent: {}
+[8.029345] (-) TimerEvent: {}
+[8.129653] (-) TimerEvent: {}
+[8.229972] (-) TimerEvent: {}
+[8.266871] (quad_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pose_node\x1b[0m\n'}
+[8.330127] (-) TimerEvent: {}
+[8.430474] (-) TimerEvent: {}
+[8.530988] (-) TimerEvent: {}
+[8.578360] (quad_navigation) StdoutLine: {'line': b'[100%] Built target pose_node\n'}
+[8.595016] (quad_navigation) CommandEnded: {'returncode': 0}
+[8.596077] (quad_navigation) JobProgress: {'identifier': 'quad_navigation', 'progress': 'install'}
+[8.604838] (quad_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation'], 'cwd': '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'laszlo-koroleff', 'GIT_ASKPASS': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/laszlo-koroleff', 'TERM_PROGRAM_VERSION': '1.134.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0136078b-6b1d-45f8-86e4-f39eda3d53af.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/laszlo-koroleff/projects/QuadCode_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'laszlo-koroleff', 'NAME': 'DESKTOP-RGJE0QP', 'WSL_INTEROP': '/run/WSL/598_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/laszlo-koroleff/.vscode-server/bin/110a328ea54b42367b803ec53ee0bf52ef26b419/bin/remote-cli:/usr/lib/ccache:/home/laszlo-koroleff/Ardupilot/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/laszlo-koroleff/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Go/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/MAVProxy:/mnt/c/Users/Laszlo Koroleff/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.2.3/bin:/mnt/c/Users/Laszlo Koroleff/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Laszlo Koroleff/AppData/Roaming/npm:/mnt/c/Users/Laszlo Koroleff/go/bin:/snap/bin:/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1a65c11b2878fb36.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/laszlo-koroleff/.vscode-server/data/User/workspaceStorage/9463f6105379a2a57c313182f23f1854/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0d24cfcd68.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[8.610288] (quad_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.610723] (quad_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.611021] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/lib/quad_navigation/nav_node\n'}
+[8.611331] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/lib/quad_navigation/pose_node\n'}
+[8.611482] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/lib/quad_navigation/tf_node\n'}
+[8.611793] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/launch/drone_tf2_demo.xml\n'}
+[8.612185] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/ament_index/resource_index/package_run_dependencies/quad_navigation\n'}
+[8.612286] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/ament_index/resource_index/parent_prefix_path/quad_navigation\n'}
+[8.612481] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/ament_prefix_path.sh\n'}
+[8.612580] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/ament_prefix_path.dsv\n'}
+[8.612694] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/path.sh\n'}
+[8.612836] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/environment/path.dsv\n'}
+[8.613042] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.bash\n'}
+[8.613112] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.sh\n'}
+[8.613889] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.zsh\n'}
+[8.614002] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/local_setup.dsv\n'}
+[8.614063] (quad_navigation) StdoutLine: {'line': b'-- Symlinking: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/package.dsv\n'}
+[8.622192] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/ament_index/resource_index/packages/quad_navigation\n'}
+[8.624162] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/cmake/quad_navigationConfig.cmake\n'}
+[8.624329] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/cmake/quad_navigationConfig-version.cmake\n'}
+[8.624489] (quad_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/laszlo-koroleff/projects/QuadCode_ws/install/quad_navigation/share/quad_navigation/package.xml\n'}
+[8.630413] (quad_navigation) CommandEnded: {'returncode': 0}
+[8.631126] (-) TimerEvent: {}
+[8.636438] (quad_navigation) JobEnded: {'identifier': 'quad_navigation', 'rc': 0}
+[8.637357] (-) EventReactorShutdown: {}

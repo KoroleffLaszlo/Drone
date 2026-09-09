@@ -1,0 +1,5 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o[0m
+[ 50%] Built target tf_node
+[ 66%] [32mBuilding CXX object CMakeFiles/nav_node.dir/src/nav_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable nav_node[0m
+[ 83%] Built target nav_node

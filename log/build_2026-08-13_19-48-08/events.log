@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (quad_navigation) JobQueued: {'identifier': 'quad_navigation', 'dependencies': OrderedDict()}
+[0.000643] (quad_navigation) JobStarted: {'identifier': 'quad_navigation'}
+[0.005408] (quad_navigation) JobProgress: {'identifier': 'quad_navigation', 'progress': 'cmake'}
+[0.005833] (quad_navigation) JobProgress: {'identifier': 'quad_navigation', 'progress': 'build'}
+[0.006360] (quad_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', '--', '-j8', '-l8'], 'cwd': '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'laszlo-koroleff', 'GIT_ASKPASS': '/home/laszlo-koroleff/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/laszlo-koroleff', 'TERM_PROGRAM_VERSION': '1.133.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-25067292-d6cd-47c8-8c7c-e1c6852b27a2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/laszlo-koroleff/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/laszlo-koroleff/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'laszlo-koroleff', 'NAME': 'DESKTOP-RGJE0QP', 'WSL_INTEROP': '/run/WSL/475_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/laszlo-koroleff/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/bin/remote-cli:/usr/lib/ccache:/home/laszlo-koroleff/Ardupilot/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/laszlo-koroleff/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Go/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/MAVProxy:/mnt/c/Users/Laszlo Koroleff/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.2.3/bin:/mnt/c/Users/Laszlo Koroleff/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Laszlo Koroleff/AppData/Roaming/npm:/mnt/c/Users/Laszlo Koroleff/go/bin:/snap/bin:/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/laszlo-koroleff/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4cce0334d289ce4e.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/laszlo-koroleff/.vscode-server/data/User/workspaceStorage/9463f6105379a2a57c313182f23f1854/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0d24cfcd68.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}), 'shell': False}
+[0.046813] (quad_navigation) StdoutLine: {'line': b'[ 50%] Built target nav_node\n'}
+[0.053365] (quad_navigation) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o\x1b[0m\n'}
+[0.099688] (-) TimerEvent: {}
+[0.199932] (-) TimerEvent: {}
+[0.300229] (-) TimerEvent: {}
+[0.400510] (-) TimerEvent: {}
+[0.500793] (-) TimerEvent: {}
+[0.601069] (-) TimerEvent: {}
+[0.701325] (-) TimerEvent: {}
+[0.801608] (-) TimerEvent: {}
+[0.901897] (-) TimerEvent: {}
+[1.002206] (-) TimerEvent: {}
+[1.102512] (-) TimerEvent: {}
+[1.202825] (-) TimerEvent: {}
+[1.303138] (-) TimerEvent: {}
+[1.403443] (-) TimerEvent: {}
+[1.503710] (-) TimerEvent: {}
+[1.604021] (-) TimerEvent: {}
+[1.704346] (-) TimerEvent: {}
+[1.804688] (-) TimerEvent: {}
+[1.905008] (-) TimerEvent: {}
+[2.005314] (-) TimerEvent: {}
+[2.105648] (-) TimerEvent: {}
+[2.205951] (-) TimerEvent: {}
+[2.306235] (-) TimerEvent: {}
+[2.406500] (-) TimerEvent: {}
+[2.506789] (-) TimerEvent: {}
+[2.607098] (-) TimerEvent: {}
+[2.707409] (-) TimerEvent: {}
+[2.807688] (-) TimerEvent: {}
+[2.907974] (-) TimerEvent: {}
+[3.008324] (-) TimerEvent: {}
+[3.108645] (-) TimerEvent: {}
+[3.116008] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoseStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.116194] (quad_navigation) StderrLine: {'line': b'   94 |       rclcpp::Publisher<geometry_msgs::msg::\x1b[01;31m\x1b[KPoseStamped\x1b[m\x1b[K>::SharedPtr pose_publisher_;\n'}
+[3.116248] (quad_navigation) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.116288] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.116327] (quad_navigation) StderrLine: {'line': b'   94 |       rclcpp::Publisher<geometry_msgs::msg::PoseStamped\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr pose_publisher_;\n'}
+[3.116364] (quad_navigation) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.116402] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.116438] (quad_navigation) StderrLine: {'line': b'   94 |       rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K pose_publisher_;\n'}
+[3.116471] (quad_navigation) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.116506] (quad_navigation) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.116541] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:94:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_publisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.116576] (quad_navigation) StderrLine: {'line': b'   94 |       rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr \x1b[01;31m\x1b[Kpose_publisher_\x1b[m\x1b[K;\n'}
+[3.116609] (quad_navigation) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.116642] (quad_navigation) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.116693] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDroneStateNode::\x1b[01;32m\x1b[KDroneStateNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.116751] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcount_publishers\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.116797] (quad_navigation) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[Kpose_publisher_\x1b[m\x1b[K =\n'}
+[3.116835] (quad_navigation) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.116870] (quad_navigation) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kcount_publishers\x1b[m\x1b[K\n'}
+[3.116905] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:29:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoseStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.116946] (quad_navigation) StderrLine: {'line': b'   29 |           this->create_publisher<geometry_msgs::msg::\x1b[01;31m\x1b[KPoseStamped\x1b[m\x1b[K>(\n'}
+[3.116983] (quad_navigation) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.117019] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:29:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDroneStateNode::create_publisher<<expression error> >(const char [12], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.117056] (quad_navigation) StderrLine: {'line': b'   29 |           \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::msg::PoseStamped>(\x1b[m\x1b[K\n'}
+[3.117091] (quad_navigation) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.117125] (quad_navigation) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K            "/drone/pose",\x1b[m\x1b[K\n'}
+[3.117220] (quad_navigation) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                                        \n'}
+[3.117302] (quad_navigation) StderrLine: {'line': b'   31 | \x1b[01;31m\x1b[K            10\x1b[m\x1b[K\n'}
+[3.117396] (quad_navigation) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~\x1b[m\x1b[K                                                    \n'}
+[3.117494] (quad_navigation) StderrLine: {'line': b'   32 | \x1b[01;31m\x1b[K          )\x1b[m\x1b[K;\n'}
+[3.117622] (quad_navigation) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                       \n'}
+[3.117668] (quad_navigation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.117707] (quad_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.117745] (quad_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:176\x1b[m\x1b[K,\n'}
+[3.117780] (quad_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:4\x1b[m\x1b[K:\n'}
+[3.117819] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.117860] (quad_navigation) StderrLine: {'line': b'  197 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[3.117895] (quad_navigation) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.117935] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.117969] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:29:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.118003] (quad_navigation) StderrLine: {'line': b'   29 |           \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::msg::PoseStamped>(\x1b[m\x1b[K\n'}
+[3.118038] (quad_navigation) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.118072] (quad_navigation) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K            "/drone/pose",\x1b[m\x1b[K\n'}
+[3.118108] (quad_navigation) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                                        \n'}
+[3.118141] (quad_navigation) StderrLine: {'line': b'   31 | \x1b[01;31m\x1b[K            10\x1b[m\x1b[K\n'}
+[3.118174] (quad_navigation) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~\x1b[m\x1b[K                                                    \n'}
+[3.118207] (quad_navigation) StderrLine: {'line': b'   32 | \x1b[01;31m\x1b[K          )\x1b[m\x1b[K;\n'}
+[3.118239] (quad_navigation) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                       \n'}
+[3.118272] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DroneStateNode::\x1b[01;32m\x1b[Kupdate_position\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.118306] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:65:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoseStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.118339] (quad_navigation) StderrLine: {'line': b'   65 |         geometry_msgs::msg::\x1b[01;31m\x1b[KPoseStamped\x1b[m\x1b[K obj;\n'}
+[3.118373] (quad_navigation) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.118406] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:67:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kobj\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.118440] (quad_navigation) StderrLine: {'line': b'   67 |         \x1b[01;31m\x1b[Kobj\x1b[m\x1b[K.header.stamp = this->get_clock()->now();\n'}
+[3.118474] (quad_navigation) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.118507] (quad_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:81:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcount_publishers\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.118540] (quad_navigation) StderrLine: {'line': b'   81 |         \x1b[01;31m\x1b[Kpose_publisher_\x1b[m\x1b[K->publish(obj);\n'}
+[3.118573] (quad_navigation) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.118606] (quad_navigation) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kcount_publishers\x1b[m\x1b[K\n'}
+[3.118640] (quad_navigation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pose_node.dir/build.make:76: CMakeFiles/pose_node.dir/src/pose_node.cpp.o] Error 1\n'}
+[3.118673] (quad_navigation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pose_node.dir/all] Error 2\n'}
+[3.119233] (quad_navigation) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.119990] (quad_navigation) CommandEnded: {'returncode': 2}
+[3.128697] (quad_navigation) JobEnded: {'identifier': 'quad_navigation', 'rc': 2}
+[3.129743] (-) EventReactorShutdown: {}

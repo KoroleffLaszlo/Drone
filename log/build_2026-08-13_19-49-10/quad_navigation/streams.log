@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8
+[0.043s] [ 50%] Built target nav_node
+[0.050s] [ 75%] [32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o[0m
+[0.414s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseStamped.hpp: No such file or directory
+[0.414s]     7 | #include [01;31m[K"geometry_msgs/msg/PoseStamped.hpp"[m[K
+[0.414s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.415s] compilation terminated.
+[0.416s] gmake[2]: *** [CMakeFiles/pose_node.dir/build.make:76: CMakeFiles/pose_node.dir/src/pose_node.cpp.o] Error 1
+[0.416s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pose_node.dir/all] Error 2
+[0.417s] gmake: *** [Makefile:146: all] Error 2
+[0.418s] Invoked command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8

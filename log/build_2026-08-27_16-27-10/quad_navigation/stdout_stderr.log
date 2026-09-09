@@ -1,0 +1,13 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/pose_node.dir/src/pose_node.cpp.o[0m
+[ 50%] Built target tf_node
+[ 66%] [32mBuilding CXX object CMakeFiles/nav_node.dir/src/nav_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable nav_node[0m
+[ 83%] Built target nav_node
+[01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:[m[K In member function ‘[01m[Kvoid DroneStateNode::[01;32m[Kupdate_position[m[K()[m[K’:
+[01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/pose_node.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[KZ_[m[K’ was not declared in this scope; did you mean ‘[01m[Kz_[m[K’?
+   65 |         [01;31m[KZ_[m[K = vz_;
+      |         [01;31m[K^~[m[K
+      |         [32m[Kz_[m[K
+gmake[2]: *** [CMakeFiles/pose_node.dir/build.make:76: CMakeFiles/pose_node.dir/src/pose_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pose_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

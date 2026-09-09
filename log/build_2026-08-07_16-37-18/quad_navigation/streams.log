@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_node.dir/src/nav_node.cpp.o[0m
+[2.603s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/nav_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.603s] [01m[K/home/laszlo-koroleff/projects/QuadCode_ws/src/quad_navigation/src/nav_node.cpp:69:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[2.604s]    69 |   auto node = std::shared_ptr<NavigationNode()>[01;31m[K;[m[K
+[2.604s]       |                                                [01;31m[K^[m[K
+[2.605s] gmake[2]: *** [CMakeFiles/nav_node.dir/build.make:76: CMakeFiles/nav_node.dir/src/nav_node.cpp.o] Error 1
+[2.605s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav_node.dir/all] Error 2
+[2.606s] gmake: *** [Makefile:146: all] Error 2
+[2.608s] Invoked command in '/home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laszlo-koroleff/projects/QuadCode_ws/build/quad_navigation -- -j8 -l8
