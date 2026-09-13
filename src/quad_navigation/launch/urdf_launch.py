@@ -8,14 +8,14 @@ def generate_launch_description():
     urdf_file = PathJoinSubstitution([
         FindPackageShare("quad_navigation"),
         "urdf",
-        "geometry.urdf"
+        "geometry.urdf.xacro"
     ])
 
     robot_state_publisher = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
         parameters=[{
-            "robot_description": Command(["cat ", urdf_file])
+            "robot_description": Command(["xacro ", urdf_file])
         }]
     )
 

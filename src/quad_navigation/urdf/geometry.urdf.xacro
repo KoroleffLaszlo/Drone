@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
-<robot name="drone">
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="drone">
+
+    <xacro:property name="length" value="0.2"/>
+    <xacro:property name="radius" value="0.2"/>
 
     <link name="body_link">
         <visual>
@@ -18,14 +22,14 @@
     <link name="top_left_rotor">
         <visual>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
             <!-- <material name="orange"/> -->
         </visual>
 
         <collision>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
         </collision>
     </link>
@@ -33,14 +37,14 @@
     <link name="top_right_rotor">
         <visual>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
             <!-- <material name="orange"/> -->
         </visual>
 
         <collision>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
         </collision>
     </link>
@@ -48,13 +52,13 @@
     <link name="bot_left_rotor">
         <visual>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
         </visual>
 
         <collision>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
         </collision>
     </link>
@@ -62,13 +66,13 @@
     <link name="bot_right_rotor">
         <visual>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
         </visual>
 
         <collision>
             <geometry>
-                <cylinder length="0.2" radius="0.2"/>
+                <cylinder length="${length}" radius="${radius}"/>
             </geometry>
         </collision>
     </link>

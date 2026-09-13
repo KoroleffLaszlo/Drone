@@ -7,6 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /Grid1
+        - /RobotModel1
       Splitter Ratio: 0.5
     Tree Height: 555
   - Class: rviz_common/Selection
@@ -55,7 +56,15 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        drone:
+        body_link:
+          Value: true
+        bot_left_rotor:
+          Value: true
+        bot_right_rotor:
+          Value: true
+        top_left_rotor:
+          Value: true
+        top_right_rotor:
           Value: true
         world:
           Value: true
@@ -66,8 +75,15 @@ Visualization Manager:
       Show Names: false
       Tree:
         world:
-          drone:
-            {}
+          body_link:
+            bot_left_rotor:
+              {}
+            bot_right_rotor:
+              {}
+            top_left_rotor:
+              {}
+            top_right_rotor:
+              {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -90,6 +106,57 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /drone/pose
       Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: true
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        body_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        bot_left_rotor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        bot_right_rotor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        top_left_rotor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        top_right_rotor:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Mass Properties:
+        Inertia: false
+        Mass: false
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -136,7 +203,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 11.883186340332031
+      Distance: 12.216947555541992
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -151,10 +218,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.4147964715957642
+      Pitch: 1.079796552658081
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.7953981161117554
+      Yaw: 1.0304042100906372
     Saved: ~
 Window Geometry:
   Displays:
@@ -172,5 +239,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 701
-  Y: 434
+  X: 669
+  Y: 402
