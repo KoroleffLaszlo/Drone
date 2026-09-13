@@ -4,10 +4,14 @@
   <node pkg="quad_navigation" exec="pose_node" name="pose" />
   <node pkg="quad_navigation" exec="tf_node" name="tf_broadcaster" />
 
+  <include file="$(find-pkg-share quad_navigation)/launch/urdf_launch.py"/>
+
   <node
     pkg="rviz2"
     exec="rviz2"
     name="rviz2"
     args="-d $(find-pkg-share quad_navigation)/rviz/drone.rviz"
   />
+
+
 </launch>

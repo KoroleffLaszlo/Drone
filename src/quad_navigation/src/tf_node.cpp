@@ -40,7 +40,8 @@ class TfBroadcastNode: public rclcpp::Node
 
             // hard coded frame ids can change later
             tf.header.frame_id = "world";
-            tf.child_frame_id = "drone";
+            //tf.child_frame_id = "drone";
+            tf.child_frame_id = "body_link"; // for urdf model vizualization
 
             tf.transform.translation.x = msg->pose.position.x;
             tf.transform.translation.y = msg->pose.position.y;

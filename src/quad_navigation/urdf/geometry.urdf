@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot="drone">
+<robot name="drone">
 
     <link name="body_link">
         <visual>
@@ -18,13 +18,14 @@
     <link name="top_left_rotor">
         <visual>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
+            <!-- <material name="orange"/> -->
         </visual>
 
         <collision>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
         </collision>
     </link>
@@ -32,13 +33,14 @@
     <link name="top_right_rotor">
         <visual>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
+            <!-- <material name="orange"/> -->
         </visual>
 
         <collision>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
         </collision>
     </link>
@@ -46,13 +48,13 @@
     <link name="bot_left_rotor">
         <visual>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
         </visual>
 
         <collision>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
         </collision>
     </link>
@@ -60,13 +62,13 @@
     <link name="bot_right_rotor">
         <visual>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
         </visual>
 
         <collision>
             <geometry>
-                <cyliner length="0.2" radius="0.2"/>
+                <cylinder length="0.2" radius="0.2"/>
             </geometry>
         </collision>
     </link>
@@ -74,18 +76,24 @@
     <joint name="body_to_tlr" type="fixed">
         <parent link="body_link"/>
         <child link="top_left_rotor"/>
-        <origin xyz="0.25 0.25 0.06"/>
+        <origin xyz="0.25 0.25 0.06" rpy="0 0 0"/>
     </joint>
-    
-    <!-- <joint name="body_to_trr" type="fixed">
+
+    <joint name="body_to_trr" type="fixed">
         <parent link="body_link"/>
         <child link="top_right_rotor"/>
-        <origin xyz="0.25 0.25 0.06"/>
-    </joint> -->
+        <origin xyz="0.25 -0.25 0.06" rpy="0 0 0"/>
+    </joint>
 
-    <!-- <joint name="body_to_blr" type="fixed">
+    <joint name="body_to_blr" type="fixed">
+        <parent link="body_link"/>
+        <child link="bot_left_rotor"/>
+        <origin xyz="-0.25 0.25 0.06" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="body_to_brr" type="fixed">
         <parent link="body_link"/>
         <child link="bot_right_rotor"/>
-        <origin xyz="0.25 0.25 0.06"/>
-    </joint> -->
+        <origin xyz="-0.25 -0.25 0.06" rpy="0 0 0"/>
+    </joint>
 </robot>
